@@ -7,7 +7,7 @@ project(Distance_sensor_display C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
-pdf_sdk_init()
+pico_sdk_init()
 
 add_executable(Distance_sensor_display
     src/main.c
