@@ -10,9 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 add_executable(Distance_sensor_display
-    src/main.c
-    src/hcsr04.c
-    src/ssd1306.c)
+    src/main.c)
 
 target_include_directories(Distance_sensor_display PRIVATE include)
 
